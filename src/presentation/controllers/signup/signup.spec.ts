@@ -2,7 +2,6 @@ import { type AddAccount, type AddAccountModel } from '../../../domain/use-cases
 import { type AccountModel, type EmailValidator } from './signup-protocols'
 import { SignUpController } from './signup'
 import { InvalidParamError, MissingParamError, ServerError } from '../../errors'
-import { rejects } from 'assert'
 
 interface SutTypes {
   sut: SignUpController
